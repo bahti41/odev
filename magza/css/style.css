@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 100;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.container {
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+    width: 100vw;
+    /* margin: 0 auto; */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: var(--bg-secondary);
+}
+.header-wellcom {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--text-gray);
+    padding: 0px 30px;
+}
+.main-nav {
+    display: flex;
+    justify-content: right;
+    width: 50vw;
+
+}
+.main-nav-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding-right: 20px;
+}
+.main-nav-item a {
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--text-gray);
+    color: var(--bg-gray);
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.main-nav-item a:hover {
+    background-color: var(--text-warning);
+}
+
+
