@@ -71,6 +71,17 @@
 .menu a:hover {
     background-color: antiquewhite;
 }
+    
+.room{
+    position: relative;
+    transition: all .40s;
+}
+.room img{
+    width: 100%;
+    height: auto; 
+} 
+
+
 
 .title{
     margin-bottom: 50px;
@@ -81,64 +92,6 @@
 
 }
 
-.main-rooms{}
-
-.main-rooms h3{
-    font-size: 50px;
-    text-align: center;
-    color: var(--text-secondary);
-    margin-bottom: 10px;
-}
-
-.rooms-cards{
-    display: flex;
-    justify-content: space-around;
-    column-gap: 30px;
-}
-
-.room{
-    width: 30%;
-    padding: 20px;
-    margin-top: 20px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border: .5px solid var(--text-secondary);
-    border-radius: 10px;
-}
-.room ul{
-    list-style-type: none;
-    font-size: 20px;
-}
-
-.room h4{
-    font-size: 30px;
-    background-color: var(--bg-warning);
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--text-white);
-}
-
-.room p {
-    background-color: var(--bg-success);
-    color: var(--text-white);
-    font-weight: 500;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition-duration: .5sn;
-}
-
-.room p:hover {
-    width: 75px;
-    height: 75px;
-    background-color: var(--bg-warning);
-}
 
 footer{
     display: flex;
