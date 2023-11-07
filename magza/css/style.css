@@ -140,59 +140,14 @@
     background-color: var(--bg-warning);
 }
 
-.main-contact{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-}
-
-.main-contact-from{
-    padding: 20px;
-    font-size: 20px;
-}
-
-.main-contact div{
-    margin-bottom: 15px;
-}
-.main-contact label{
-    display: inline-block;
-    width: 100px;
-    font-weight: 300;
-    color: var(--text-secondary);
-}
-
-.main-contact input {
-    width: 250px;
-    height: 40px;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: 300;
-}
-.main-contact textarea{
-    font-size: 20px;
-    width: 250px;
-}
-.button {
-    text-align: end;
-}
-
-.main-contact button{
-    background-color: var(--bg-success);
-    color: var(--text-white);
-    border: none;
-    padding: 10px;
-    font-size: 18px;
-    
-}
-
-
 footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--bg-dark);
     height: 100px;
-    padding: 0 30px;
+    padding: 0px 30px;
+    margin-top: 30px;
 
 }
 footer p{
