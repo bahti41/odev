@@ -108,84 +108,64 @@ background: white;
 
 
 
+.row{
+    padding-top: 70px;
+    height: 10vh;
+    display: grid;
+    place-items: center;
+    background: white;
+    font-family: sans-serif;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.room{
+.card{
     position: relative;
-    transition: all .40s;
+    width: 380px;
+    height: 380px;
+    padding: 25px;
+    border: 2px solid green;
+    border-radius: 20px;
+    transition: .4s;
 }
-.room img{
+
+.card :hover{
+    border-color: green;
+    transform: translateY(-1ppx);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, a.08) ;
+}
+.card .card-header h3{
+    color: cornflowerblue;
+    font-size: 28px;
+}
+
+
+.card .card-header p{
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.card 
+.card-img {
+    position: relative;
+    height: 220px;
+    margin: 22px 0;
+    overflow: hidden;
+}
+
+.card 
+.card-img img{
     width: 100%;
-    height: auto; 
-} 
+    height: 100%;
+    transition: .4s;
 
+}
 
-
-.title{
-    margin-bottom: 50px;
-    padding-top: 60px;
-    text-align: center;
-    font-size: 80px;
-    color: orange;
-
+.card:hover 
+.card-img img{
+    transform: scale(1.06);
 }
 
 
 
 
 
-
-
-
-
-
-
-.whatsapp {
-    font-size: 70px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-   
-}
-
-
-
-
-
-.end{
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    background-color: orange;
-    height: 100px;
-    /* padding: 0px 30px;
-    margin-top: 30px; */
-
-}
-.end p{
-    color: black;
-    /* margin-right: 60px; */
-}
-
-/* .social a i{
-    color: black;
-    margin-right: 20px;
-    font-size: 30px;
-} */
