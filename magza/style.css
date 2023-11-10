@@ -87,9 +87,10 @@
     margin: 35px 380px;
 }
 
-.buttons button{
+.main .buttons button{
     height: 50px;
     width: 150px;
+    margin: 10px ;
     font-size: 24px;
     font-weight: bold;
     color: black;
@@ -104,12 +105,26 @@
 background: white;
 }
 
+.bro{
+    padding-top: 100px;
+}
 
 
 
 
-.row{
-    padding-top: 70px;
+.main-row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+
+.exit{
+    padding-top: 50px;
+    padding-bottom: 250px;
     height: 10vh;
     display: grid;
     place-items: center;
@@ -118,6 +133,11 @@ background: white;
 
 }
 
+.exit{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
 .card{
     position: relative;
     width: 380px;
@@ -130,8 +150,6 @@ background: white;
 
 .card :hover{
     border-color: green;
-    transform: translateY(-1ppx);
-    box-shadow: 0 5px 12px rgba(0, 0, 0, a.08) ;
 }
 .card .card-header h3{
     color: cornflowerblue;
@@ -152,6 +170,26 @@ background: white;
     overflow: hidden;
 }
 
+.card-details .butto{
+    height: 50px;
+    width: 150px;
+    margin: 10px ;
+    position: relative;
+    left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    border: solid 2px black;
+    background-color: aquamarine;
+    
+}
+.card-details .butto:hover{
+    
+    background-color: white;
+    transition: .5s;
+}
+
 .card 
 .card-img img{
     width: 100%;
@@ -160,10 +198,6 @@ background: white;
 
 }
 
-.card:hover 
-.card-img img{
-    transform: scale(1.06);
-}
 
 
 
