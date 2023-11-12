@@ -4,10 +4,19 @@
     padding: 0;
 }
 .container {
-    background: url(images/anasayfa.webp);
     height: 100vh;
     background-size: 100% 100%;
-    /* position: fixed; */
+   
+}
+.container img{
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    position: fixed;
+    top: 0;
 }
 
 
