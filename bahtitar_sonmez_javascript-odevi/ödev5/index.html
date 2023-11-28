@@ -9,7 +9,15 @@
 </head>
 
 <body>
-
+    <div class="container">
+        <h1>Sayı Bulmaca Oyunu</h1>
+        <p id="message">Bir sayı tahmin edin (1 ile 10 arasında).</p>
+        <input type="number" id="guessInput" min="1" max="10" required>
+        <button onclick="checkGuess()">Tahmin Et</button>
+        <p id="result"></p>
+        <p id="score">Puan: <span id="scoreValue">0</span></p>
+        <p id="attempts">Kalan Hak: <span id="attemptsValue">3</span></p>
+    </div>
     <script src="app.js"></script>
 </body>
 
