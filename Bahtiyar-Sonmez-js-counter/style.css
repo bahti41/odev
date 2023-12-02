@@ -1,12 +1,14 @@
  body {
      margin: 0;
      font-family: Arial, sans-serif;
+     background-color: aquamarine;
  }
 
  .slideshow-container {
      max-width: 1000px;
      position: relative;
      margin: auto;
+     padding-top: 12rem;
  }
 
  .mySlides {
@@ -25,8 +27,7 @@
      position: absolute;
      top: 50%;
      width: auto;
-     margin-top: -22px;
-     padding: 16px;
+     padding: 8rem;
      color: white;
      font-weight: bold;
      font-size: 18px;
